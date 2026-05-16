@@ -1,11 +1,11 @@
 ansible_user: ec2-user 
 ansible_password: DevOps321
-MONGODB_HOST: mongodb-dev.88sdaws.fun
-CATALOGUE_HOST: catalogue-dev.88sdaws.fun
-REDIS_HOST: redis-dev.88sdaws.fun
-USER_HOST: user-dev.88sdaws.fun
-CART_HOST: cart-dev.88sdaws.fun
-MYSQL_HOST: mysql-dev.88sdaws.fun
-SHIPPING_HOST: shipping-dev.88sdaws.fun
-RABBITMQ_HOST: rabbitmq-dev.88sdaws.fun
-PAYMENT_HOST: payment-dev.88sdaws.fun
+MONGODB_HOST: mongodb-"{{ env }}".88sdaws.fun
+CATALOGUE_HOST: catalogue-"{{ env }}".88sdaws.fun
+REDIS_HOST: redis-"{{ env }}".88sdaws.fun
+USER_HOST: user-"{{ env }}".88sdaws.fun
+CART_HOST: cart-"{{ env }}".88sdaws.fun
+MYSQL_HOST: mysql-"{{ env }}".88sdaws.fun
+SHIPPING_HOST: shipping-"{{ env }}".88sdaws.fun
+RABBITMQ_HOST: rabbitmq-"{{ env }}".88sdaws.fun
+PAYMENT_HOST: payment-"{{ env }}".88sdaws.fun
